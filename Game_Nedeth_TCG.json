@@ -1,17 +1,17 @@
 {
   "name": "Nedeth_TCG",
-  "menuBackgroundImage": "https://github.com/glassjoe-ols/nedeth_master/Caged.jpg",
+  "menuBackgroundImage": "https://glassjoe-ols.github.io/nedeth_master/Caged.jpg",
   "defaultRessources": {
     "backgrounds": [
-      "https://github.com/glassjoe-ols/nedeth_master/Caged.jpg"
+      "https://glassjoe-ols.github.io/nedeth_master/Caged.jpg"
     ],
     "decksUrl": ""
   },
   "customHelp": "",
   "cardRotation": 45,
   "cards": {
-    "dataUrl": "https://github.com/glassjoe-ols/nedeth_master/CardList.json",
-    "cardBack": "https://github.com/glassjoe-ols/nedeth_master/cardback.jpg"
+    "dataUrl": "https://glassjoe-ols.github.io/nedeth_master/CardList.json",
+    "cardBack": "https://glassjoe-ols.github.io/nedeth_master/cardback.jpg"
   },
   "deckBuilding": {
     "mainFilters": [
