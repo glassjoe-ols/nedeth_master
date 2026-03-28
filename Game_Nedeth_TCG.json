@@ -1,0 +1,88 @@
+{
+  "name": "Nedeth_TCG",
+  "menuBackgroundImage": "https://github.com/glassjoe-ols/nedeth_master/blob/main/Caged.jpg",
+  "defaultRessources": {
+    "backgrounds": [
+      "https://github.com/glassjoe-ols/nedeth_master/blob/main/Caged.jpg"
+    ],
+    "decksUrl": ""
+  },
+  "customHelp": "",
+  "cardRotation": 45,
+  "cards": {
+    "dataUrl": "https://github.com/glassjoe-ols/nedeth_master/blob/main/CardList.json",
+    "cardBack": "https://github.com/glassjoe-ols/nedeth_master/blob/main/cardback.jpg"
+  },
+  "deckBuilding": {
+    "mainFilters": [
+      "Class",
+      "Race",
+      "Job"
+    ],
+    "formats": [
+      {
+        "title": "The Only One",
+        "gameplay": "test me",
+        "customCategories": []
+      }
+    ]
+  },
+  "gameplay": {
+    "Classic": {
+      "mulligan": {
+        "info": "Selective Mulligan",
+        "startingHandSize": "5",
+        "drawNewHand": false,
+        "putSelectionAtBottom": false,
+        "drawNewSelectedCards": true
+      },
+      "newTurn": {
+        "drawOnStart": false,
+        "sharedTurn": false,
+        "firstPlayerTokenName": "",
+        "drawPerTurn": 1
+      },
+      "defaultNotes": "",
+      "tokens": [],
+      "countersStartingValues": [
+        "40"
+      ],
+      "hideFacedDownCards": false,
+      "sections": {
+        "customSections": [
+          "Resources",
+          "Leader"
+        ],
+        "layout": {
+          "direction": "row",
+          "isSymetricalForOpponents": false,
+          "content": []
+        },
+        "categoriesAlreadyOnBoard": [
+          "Leader",
+          "Weapon"
+        ],
+        "autoPlayFromHand": {},
+        "autoPlayFromStack": {},
+        "sectionsDict": {
+          "Resource": {
+            "title": "Resource",
+            "isHidden": "yes",
+            "height": "SMALL",
+            "alignment": "START",
+            "opponentAlignment": false,
+            "noAutoPayTo": false,
+            "isHorizontalAllowed": false,
+            "displayedTitle": "Resources",
+            "enterTapped": false,
+            "enterSpun": false,
+            "isGroupForbidden": false,
+            "keepTappedNewTurn": false,
+            "showHiddenCardInHistory": false,
+            "noQuickActions": false
+          }
+        }
+      }
+    }
+  }
+}
