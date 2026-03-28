@@ -82,7 +82,8 @@
             "isGroupForbidden": false,
             "keepTappedNewTurn": false,
             "showHiddenCardInHistory": false,
-            "noQuickActions": false
+            "noQuickActions": false,
+            "isDefaultSection": true
           }
         }
       }
