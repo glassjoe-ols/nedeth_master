@@ -53,7 +53,7 @@
       "sections": {
         "customSections": [
           "Resources",
-          "Leader"
+          "Hero"
         ],
         "layout": {
           "direction": "row",
@@ -61,7 +61,7 @@
           "content": []
         },
         "categoriesAlreadyOnBoard": [
-          "Leader",
+          "Hero",
           "Weapon"
         ],
         "autoPlayFromHand": {},
