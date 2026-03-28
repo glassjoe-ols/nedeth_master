@@ -23,7 +23,9 @@
       {
         "title": "The Only One",
         "gameplay": "test me",
-        "customCategories": []
+        "customCategories": [
+          "test"
+        ]
       }
     ]
   },

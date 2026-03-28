@@ -7006,5 +7006,49 @@
         "Job": "Club",
         "ATK": 2,
         "DEF": null
+    },
+    "tok-01": {
+        "id": "tok-01",
+        "isToken": true,
+        "face": {
+            "front": {
+                "name": "Wild Magic Table",
+                "type": "None",
+                "cost": "None",
+                "image": "https://raw.githubusercontent.com/glassjoe-ols/nedeth_master/Master%20Set/Wild%20Magic%20Table.png",
+                "isHorizontal": false
+            }
+        },
+        "name": "Wild Magic Table",
+        "type": "",
+        "cost": null,
+        "Tagwords": "",
+        "Class": "",
+        "Race": "",
+        "Job": "",
+        "ATK": null,
+        "DEF": null
+    },
+"resource": {
+        "id": "resource",
+        "isToken": false,
+        "face": {
+            "front": {
+                "name": "Resource",
+                "type": "None",
+                "cost": "None",
+                "image": "https://raw.githubusercontent.com/glassjoe-ols/nedeth_master/Master%20Set/Resource.png",
+                "isHorizontal": false
+            }
+        },
+        "name": "Resource",
+        "type": "Resource",
+        "cost": null,
+        "Tagwords": "",
+        "Class": "",
+        "Race": "",
+        "Job": "",
+        "ATK": null,
+        "DEF": null
     }
 }
