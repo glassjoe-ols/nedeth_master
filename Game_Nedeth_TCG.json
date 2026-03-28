@@ -54,19 +54,44 @@
       "sections": {
         "customSections": [
           "Resources",
-          "Hero"
+          "Hero",
+          "Field"
         ],
         "layout": {
-          "direction": "row",
+          "direction": "column",
           "isSymetricalForOpponents": false,
-          "content": []
+          "content": [
+            {
+              "section": "Field",
+              "style": false
+            },
+            {
+              "section": "Resources",
+              "style": false
+            },
+            {
+              "section": "Hero",
+              "style": false
+            },
+            {
+              "section": "Weapon",
+              "style": false
+            }
+          ]
         },
         "categoriesAlreadyOnBoard": [
           "Hero",
           "Weapon"
         ],
-        "autoPlayFromHand": {},
-        "autoPlayFromStack": {},
+        "autoPlayFromHand": {
+          "Spell": "Discard",
+          "Ally": "Field",
+          "Artefact": "Field",
+          "Resource": "Resource"
+        },
+        "autoPlayFromStack": {
+          "Resource": "Resource"
+        },
         "sectionsDict": {
           "Resource": {
             "title": "Resource",
