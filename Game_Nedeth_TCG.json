@@ -55,7 +55,8 @@
         "customSections": [
           "Resources",
           "Hero",
-          "Field"
+          "Field",
+          "Weapon"
         ],
         "layout": {
           "direction": "column",
