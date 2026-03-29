@@ -88,10 +88,10 @@
           "Spell": "Discard",
           "Ally": "Field",
           "Artefact": "Field",
-          "Resource": "Resource"
+          "Resource": "Resources"
         },
         "autoPlayFromStack": {
-          "Resource": "Resource"
+          "Resource": "Resources"
         },
         "sectionsDict": {
           "Hero": {
