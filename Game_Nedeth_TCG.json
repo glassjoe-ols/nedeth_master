@@ -53,55 +53,82 @@
       "hideFacedDownCards": false,
       "sections": {
         "customSections": [
-          "Resources",
+          "Resource",
           "Hero",
           "Field",
-          "Weapon"
+          "Weapon",
+          "Other"
         ],
         "layout": {
           "direction": "column",
           "isSymetricalForOpponents": false,
           "content": [
             {
-              "section": "Field",
-              "style": false
+              "direction": "row",
+              "style": false,
+              "content": [
+                {
+                  "section": "Hero",
+                  "style": {
+                    "width": "15vh"
+                  }
+                },
+                {
+                  "section": "Weapon",
+                  "style": {
+                    "width": "15vh"
+                  }
+                },
+                {
+                  "section": "Field",
+                  "style": false
+                }
+              ],
+              "isSymetricalForOpponents": false
             },
             {
-              "section": "Resources",
-              "style": false
-            },
-            {
-              "section": "Hero",
-              "style": false
-            },
-            {
-              "section": "Weapon",
-              "style": false
+              "direction": "row",
+              "style": false,
+              "content": [
+                {
+                  "section": "Resource",
+                  "style": false
+                },
+                {
+                  "section": "Other",
+                  "style": false
+                }
+              ],
+              "isSymetricalForOpponents": false
             }
           ]
         },
         "categoriesAlreadyOnBoard": [
           "Hero",
-          "Weapon"
+          "Weapon",
+          "Resource"
         ],
         "autoPlayFromHand": {
-          "Spell": "Discard",
-          "Ally": "Field",
-          "Artefact": "Field",
-          "Resource": "Resources"
+          "Spell": "Stack",
+          "Ally": "Stack",
+          "Artefact": "Stack",
+          "Resource": "Resource"
         },
         "autoPlayFromStack": {
-          "Resource": "Resources"
+          "Resource": "Resource",
+          "Spell": "Discard",
+          "Ally": "Field",
+          "Artefact": "Other"
         },
         "sectionsDict": {
           "Hero": {
             "title": "Hero",
             "isHidden": "no",
-            "height": "BIG",
+            "height": "SMALL",
             "alignment": "START",
             "opponentAlignment": false,
-            "noAutoPayTo": false,
-            "isHorizontalAllowed": false,
+            "noAutoPayTo": true,
+            "isHorizontalAllowed": true,
             "displayedTitle": "Hero",
             "enterTapped": false,
             "enterSpun": false,
@@ -114,12 +141,12 @@
           "Weapon": {
             "title": "Weapon",
             "isHidden": "no",
-            "height": "BIG",
+            "height": "SMALL",
             "alignment": "START",
             "opponentAlignment": false,
-            "noAutoPayTo": false,
+            "noAutoPayTo": true,
             "isHorizontalAllowed": true,
-            "displayedTitle": "",
+            "displayedTitle": "Weapon",
             "noQuickActions": false,
             "enterTapped": false,
             "enterSpun": false,
@@ -143,11 +170,27 @@
             "keepTappedNewTurn": false,
             "showHiddenCardInHistory": false
           },
-          "Resources": {
+          "Resource": {
             "title": "Resources",
             "isHidden": "no",
             "height": "SMALL",
-            "alignment": "CENTER",
+            "alignment": "START",
+            "opponentAlignment": false,
+            "noAutoPayTo": false,
+            "isHorizontalAllowed": false,
+            "displayedTitle": "",
+            "noQuickActions": false,
+            "enterTapped": false,
+            "enterSpun": false,
+            "isGroupForbidden": false,
+            "keepTappedNewTurn": false,
+            "showHiddenCardInHistory": false
+          },
+          "Other": {
+            "title": "Other",
+            "isHidden": "no",
+            "height": "SMALL",
+            "alignment": "END",
             "opponentAlignment": false,
             "noAutoPayTo": false,
             "isHorizontalAllowed": true,
