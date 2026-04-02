@@ -1,0 +1,209 @@
+{
+  "name": "Nedeth_TCG",
+  "menuBackgroundImage": "https://glassjoe-ols.github.io/nedeth_master/Caged.jpg",
+  "defaultRessources": {
+    "backgrounds": [
+      "https://glassjoe-ols.github.io/nedeth_master/Caged.jpg"
+    ],
+    "decksUrl": ""
+  },
+  "customHelp": "",
+  "cardRotation": 45,
+  "cards": {
+    "dataUrl": "https://glassjoe-ols.github.io/nedeth_master/CardList.json",
+    "cardBack": "https://glassjoe-ols.github.io/nedeth_master/cardback.jpg"
+  },
+  "deckBuilding": {
+    "mainFilters": [
+      "Class",
+      "Race",
+      "Job"
+    ],
+    "formats": [
+      {
+        "title": "The Only One",
+        "gameplay": "Classic",
+        "customCategories": [
+          "test"
+        ]
+      }
+    ]
+  },
+  "gameplay": {
+    "Classic": {
+      "mulligan": {
+        "info": "Selective Mulligan",
+        "startingHandSize": "5",
+        "drawNewHand": false,
+        "putSelectionAtBottom": false,
+        "drawNewSelectedCards": true
+      },
+      "newTurn": {
+        "drawOnStart": false,
+        "sharedTurn": false,
+        "firstPlayerTokenName": "",
+        "drawPerTurn": 1
+      },
+      "defaultNotes": "",
+      "tokens": [],
+      "countersStartingValues": [
+        "40",
+        "0"
+      ],
+      "hideFacedDownCards": false,
+      "sections": {
+        "customSections": [
+          "Resource",
+          "Hero",
+          "Field",
+          "Weapon",
+          "Other"
+        ],
+        "layout": {
+          "direction": "column",
+          "isSymetricalForOpponents": false,
+          "content": [
+            {
+              "direction": "row",
+              "style": false,
+              "content": [
+                {
+                  "section": "Hero",
+                  "style": {
+                    "width": "15vh"
+                  }
+                },
+                {
+                  "section": "Weapon",
+                  "style": {
+                    "width": "15vh"
+                  }
+                },
+                {
+                  "section": "Field",
+                  "style": false
+                }
+              ],
+              "isSymetricalForOpponents": false
+            },
+            {
+              "direction": "row",
+              "style": false,
+              "content": [
+                {
+                  "section": "Resource",
+                  "style": false
+                },
+                {
+                  "section": "Other",
+                  "style": false
+                }
+              ],
+              "isSymetricalForOpponents": false
+            }
+          ]
+        },
+        "categoriesAlreadyOnBoard": [
+          "Hero",
+          "Weapon",
+          "Resource"
+        ],
+        "autoPlayFromHand": {
+          "Spell": "Stack",
+          "Ally": "Stack",
+          "Artefact": "Stack",
+          "Resource": "Resource"
+        },
+        "autoPlayFromStack": {
+          "Resource": "Resource",
+          "Spell": "Discard",
+          "Ally": "Field",
+          "Artefact": "Other"
+        },
+        "sectionsDict": {
+          "Hero": {
+            "title": "Hero",
+            "isHidden": "no",
+            "height": "SMALL",
+            "alignment": "START",
+            "opponentAlignment": false,
+            "noAutoPayTo": true,
+            "isHorizontalAllowed": true,
+            "displayedTitle": "Hero",
+            "enterTapped": false,
+            "enterSpun": false,
+            "isGroupForbidden": false,
+            "keepTappedNewTurn": false,
+            "showHiddenCardInHistory": false,
+            "noQuickActions": false,
+            "isDefaultSection": true
+          },
+          "Weapon": {
+            "title": "Weapon",
+            "isHidden": "no",
+            "height": "SMALL",
+            "alignment": "START",
+            "opponentAlignment": false,
+            "noAutoPayTo": true,
+            "isHorizontalAllowed": true,
+            "displayedTitle": "Weapon",
+            "noQuickActions": false,
+            "enterTapped": false,
+            "enterSpun": false,
+            "isGroupForbidden": false,
+            "keepTappedNewTurn": false,
+            "showHiddenCardInHistory": false
+          },
+          "Field": {
+            "title": "Field",
+            "isHidden": "no",
+            "height": "MEDIUM",
+            "alignment": "CENTER",
+            "opponentAlignment": false,
+            "noAutoPayTo": false,
+            "isHorizontalAllowed": true,
+            "displayedTitle": "",
+            "noQuickActions": false,
+            "enterTapped": false,
+            "enterSpun": false,
+            "isGroupForbidden": false,
+            "keepTappedNewTurn": false,
+            "showHiddenCardInHistory": false
+          },
+          "Resource": {
+            "title": "Resources",
+            "isHidden": "no",
+            "height": "SMALL",
+            "alignment": "START",
+            "opponentAlignment": false,
+            "noAutoPayTo": false,
+            "isHorizontalAllowed": false,
+            "displayedTitle": "",
+            "noQuickActions": false,
+            "enterTapped": false,
+            "enterSpun": false,
+            "isGroupForbidden": false,
+            "keepTappedNewTurn": false,
+            "showHiddenCardInHistory": false
+          },
+          "Other": {
+            "title": "Other",
+            "isHidden": "no",
+            "height": "SMALL",
+            "alignment": "END",
+            "opponentAlignment": false,
+            "noAutoPayTo": false,
+            "isHorizontalAllowed": true,
+            "displayedTitle": "",
+            "noQuickActions": false,
+            "enterTapped": false,
+            "enterSpun": false,
+            "isGroupForbidden": false,
+            "keepTappedNewTurn": false,
+            "showHiddenCardInHistory": false
+          }
+        }
+      }
+    }
+  }
+}

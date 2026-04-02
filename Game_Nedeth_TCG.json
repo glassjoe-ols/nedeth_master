@@ -1,18 +1,6 @@
 {
   "name": "Nedeth_TCG",
   "menuBackgroundImage": "https://glassjoe-ols.github.io/nedeth_master/Caged.jpg",
-  "defaultRessources": {
-    "backgrounds": [
-      "https://glassjoe-ols.github.io/nedeth_master/Caged.jpg"
-    ],
-    "decksUrl": ""
-  },
-  "customHelp": "",
-  "cardRotation": 45,
-  "cards": {
-    "dataUrl": "https://glassjoe-ols.github.io/nedeth_master/CardList.json",
-    "cardBack": "https://glassjoe-ols.github.io/nedeth_master/cardback.jpg"
-  },
   "deckBuilding": {
     "mainFilters": [
       "Class",
@@ -23,49 +11,41 @@
       {
         "title": "The Only One",
         "gameplay": "Classic",
-        "customCategories": [
-          "test"
-        ]
+        "compatibility": "Wanderer",
+        "customCategories": []
       }
     ]
   },
   "gameplay": {
     "Classic": {
       "mulligan": {
-        "info": "Selective Mulligan",
-        "startingHandSize": "5",
-        "drawNewHand": false,
-        "putSelectionAtBottom": false,
-        "drawNewSelectedCards": true
+        "info": "Draw 5 cards then put any of those cards on bottom. Once satisfied, shuffle and draw back up to 5 (click those cards).",
+        "startingHandSize": 5,
+        "putSelectionAtBottom": true
       },
       "newTurn": {
         "drawOnStart": false,
         "sharedTurn": false,
-        "firstPlayerTokenName": "",
-        "drawPerTurn": 1
+        "drawPerTurn": "0"
       },
-      "defaultNotes": "",
-      "tokens": [],
       "countersStartingValues": [
-        "40",
-        "0"
+        40,
+        0
       ],
-      "hideFacedDownCards": false,
       "sections": {
         "customSections": [
-          "Resource",
-          "Hero",
           "Field",
-          "Weapon",
-          "Other"
+          "Resource",
+          "Mana",
+          "Other",
+          "Hero",
+          "Weapon"
         ],
         "layout": {
           "direction": "column",
-          "isSymetricalForOpponents": false,
           "content": [
             {
               "direction": "row",
-              "style": false,
               "content": [
                 {
                   "section": "Hero",
@@ -80,26 +60,26 @@
                   }
                 },
                 {
-                  "section": "Field",
-                  "style": false
+                  "section": "Field"
                 }
-              ],
-              "isSymetricalForOpponents": false
+              ]
             },
             {
               "direction": "row",
-              "style": false,
               "content": [
                 {
                   "section": "Resource",
-                  "style": false
+                  "style": {
+                    "width": "10vh"
+                  }
                 },
                 {
-                  "section": "Other",
-                  "style": false
+                  "section": "Mana"
+                },
+                {
+                  "section": "Other"
                 }
-              ],
-              "isSymetricalForOpponents": false
+              ]
             }
           ]
         },
@@ -109,18 +89,85 @@
           "Resource"
         ],
         "autoPlayFromHand": {
+          "Card": "Other",
+          "Resource": "Mana",
           "Spell": "Stack",
-          "Ally": "Stack",
           "Artefact": "Stack",
-          "Resource": "Resource"
+          "Ally": "Stack"
         },
         "autoPlayFromStack": {
-          "Resource": "Resource",
-          "Spell": "Discard",
+          "Card": "Other",
           "Ally": "Field",
-          "Artefact": "Other"
+          "Artefact": "Other",
+          "Spell": "Discard",
+          "Resource": "Mana"
         },
         "sectionsDict": {
+          "Field": {
+            "title": "Field",
+            "isHidden": "no",
+            "height": "MEDIUM",
+            "alignment": "CENTER",
+            "isHorizontalAllowed": true,
+            "opponentAlignment": false,
+            "noAutoPayTo": false,
+            "displayedTitle": "",
+            "noQuickActions": false,
+            "enterTapped": false,
+            "enterSpun": false,
+            "isGroupForbidden": false,
+            "keepTappedNewTurn": true,
+            "showHiddenCardInHistory": false
+          },
+          "Other": {
+            "title": "Other",
+            "isHidden": "no",
+            "height": "SMALL",
+            "alignment": "END",
+            "isHorizontalAllowed": true,
+            "opponentAlignment": false,
+            "noAutoPayTo": false,
+            "displayedTitle": "",
+            "noQuickActions": false,
+            "enterTapped": false,
+            "enterSpun": false,
+            "isGroupForbidden": false,
+            "keepTappedNewTurn": true,
+            "showHiddenCardInHistory": false
+          },
+          "Stack": {
+            "isDefaultSection": true,
+            "title": "Stack",
+            "isHidden": "no",
+            "height": "HUGE",
+            "alignment": "NONE",
+            "isHorizontalAllowed": false,
+            "isGroupForbidden": true,
+            "displayedTitle": "Chase",
+            "opponentAlignment": false,
+            "noAutoPayTo": true,
+            "noQuickActions": false,
+            "enterTapped": false,
+            "enterSpun": false,
+            "keepTappedNewTurn": false,
+            "showHiddenCardInHistory": false
+          },
+          "Mana": {
+            "title": "Mana",
+            "isHidden": "no",
+            "height": "SMALL",
+            "alignment": "START",
+            "isHorizontalAllowed": false,
+            "opponentAlignment": false,
+            "noAutoPayTo": false,
+            "displayedTitle": "",
+            "noQuickActions": false,
+            "enterTapped": false,
+            "enterSpun": false,
+            "isGroupForbidden": false,
+            "keepTappedNewTurn": true,
+            "showHiddenCardInHistory": false
+          },
           "Hero": {
             "title": "Hero",
             "isHidden": "no",
@@ -130,13 +177,28 @@
             "noAutoPayTo": true,
             "isHorizontalAllowed": true,
             "displayedTitle": "Hero",
+            "noQuickActions": true,
+            "enterTapped": false,
+            "enterSpun": false,
+            "isGroupForbidden": false,
+            "keepTappedNewTurn": true,
+            "showHiddenCardInHistory": false
+          },
+          "Resource": {
+            "title": "Resource",
+            "isHidden": "yes",
+            "height": "SMALL",
+            "alignment": "DECK",
+            "opponentAlignment": false,
+            "noAutoPayTo": true,
+            "isHorizontalAllowed": false,
+            "displayedTitle": "Resource Deck",
+            "noQuickActions": false,
             "enterTapped": false,
             "enterSpun": false,
             "isGroupForbidden": false,
             "keepTappedNewTurn": false,
-            "showHiddenCardInHistory": false,
-            "noQuickActions": false,
-            "isDefaultSection": true
+            "showHiddenCardInHistory": false
           },
           "Weapon": {
             "title": "Weapon",
@@ -147,63 +209,27 @@
             "noAutoPayTo": true,
             "isHorizontalAllowed": true,
             "displayedTitle": "Weapon",
-            "noQuickActions": false,
+            "noQuickActions": true,
             "enterTapped": false,
             "enterSpun": false,
             "isGroupForbidden": false,
-            "keepTappedNewTurn": false,
-            "showHiddenCardInHistory": false
-          },
-          "Field": {
-            "title": "Field",
-            "isHidden": "no",
-            "height": "MEDIUM",
-            "alignment": "CENTER",
-            "opponentAlignment": false,
-            "noAutoPayTo": false,
-            "isHorizontalAllowed": true,
-            "displayedTitle": "",
-            "noQuickActions": false,
-            "enterTapped": false,
-            "enterSpun": false,
-            "isGroupForbidden": false,
-            "keepTappedNewTurn": false,
-            "showHiddenCardInHistory": false
-          },
-          "Resource": {
-            "title": "Resources",
-            "isHidden": "no",
-            "height": "SMALL",
-            "alignment": "START",
-            "opponentAlignment": false,
-            "noAutoPayTo": false,
-            "isHorizontalAllowed": false,
-            "displayedTitle": "",
-            "noQuickActions": false,
-            "enterTapped": false,
-            "enterSpun": false,
-            "isGroupForbidden": false,
-            "keepTappedNewTurn": false,
-            "showHiddenCardInHistory": false
-          },
-          "Other": {
-            "title": "Other",
-            "isHidden": "no",
-            "height": "SMALL",
-            "alignment": "END",
-            "opponentAlignment": false,
-            "noAutoPayTo": false,
-            "isHorizontalAllowed": true,
-            "displayedTitle": "",
-            "noQuickActions": false,
-            "enterTapped": false,
-            "enterSpun": false,
-            "isGroupForbidden": false,
-            "keepTappedNewTurn": false,
+            "keepTappedNewTurn": true,
             "showHiddenCardInHistory": false
           }
         }
-      }
+      },
+      "defaultNotes": "",
+      "tokens": [],
+      "hideFacedDownCards": false
     }
+  },
+  "defaultRessources": {
+    "backgrounds": [],
+    "decksUrl": ""
+  },
+  "customHelp": "hi",
+  "cards": {
+    "dataUrl": "https://glassjoe-ols.github.io/nedeth_master/CardList.json",
+    "cardBack": "https://glassjoe-ols.github.io/nedeth_master/cardback.jpg"
   }
 }
