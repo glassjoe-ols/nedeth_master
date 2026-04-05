@@ -225,7 +225,7 @@
   },
   "defaultRessources": {
     "backgrounds": [],
-    "decksUrl": ""
+    "decksUrl": "https://glassjoe-ols.github.io/nedeth_master/decks.json"
   },
   "customHelp": "hi",
   "cards": {

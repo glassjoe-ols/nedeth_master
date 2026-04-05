@@ -1,0 +1,1446 @@
+[
+{
+  "title": "Judith Starter",
+  "id": "ecf3abec-7ef1-43b5-915e-545888e268de",
+  "cardCount": 55,
+  "createdAt": "2026-04-02T04:38:59.908Z",
+  "lastModifiedAt": "2026-04-02T04:46:14.421Z",
+  "game": "Nedeth_TCG",
+  "format": [
+    "The Only One"
+  ],
+  "deckList": {
+    "categoriesOrder": [
+      "Hero",
+      "Weapon",
+      "Artefact",
+      "Ally",
+      "Spell",
+      "Resource"
+    ],
+    "Hero": [
+      {
+        "count": 1,
+        "id": "275"
+      }
+    ],
+    "Weapon": [
+      {
+        "count": 1,
+        "id": "289"
+      }
+    ],
+    "Artefact": [
+      {
+        "count": 3,
+        "id": "240"
+      },
+      {
+        "count": 3,
+        "id": "233"
+      },
+      {
+        "count": 1,
+        "id": "244"
+      },
+      {
+        "count": 3,
+        "id": "228"
+      }
+    ],
+    "Ally": [
+      {
+        "count": 3,
+        "id": "209"
+      },
+      {
+        "count": 3,
+        "id": "108"
+      },
+      {
+        "count": 3,
+        "id": "129"
+      },
+      {
+        "count": 3,
+        "id": "159"
+      },
+      {
+        "count": 3,
+        "id": "191"
+      },
+      {
+        "count": 3,
+        "id": "199"
+      },
+      {
+        "count": 3,
+        "id": "130"
+      }
+    ],
+    "Spell": [
+      {
+        "count": 3,
+        "id": "42"
+      },
+      {
+        "count": 3,
+        "id": "18"
+      },
+      {
+        "count": 3,
+        "id": "72"
+      },
+      {
+        "count": 3,
+        "id": "70"
+      }
+    ],
+    "Resource": [
+      {
+        "count": 10,
+        "id": "resource"
+      }
+    ]
+  }
+},
+{
+  "title": "Locke Starter",
+  "id": "b50646a0-4bc7-4f27-9581-b5818876fd39",
+  "game": "Nedeth_TCG",
+  "format": [
+    "The Only One"
+  ],
+  "cardCount": 52,
+  "createdAt": "2026-04-03T02:13:25.141Z",
+  "lastModifiedAt": "2026-04-03T02:18:55.632Z",
+  "deckList": {
+    "categoriesOrder": [
+      "Hero",
+      "Weapon",
+      "Artefact",
+      "Spell",
+      "Ally",
+      "Resource"
+    ],
+    "Sideboard": [],
+    "Hero": [
+      {
+        "count": 1,
+        "id": "271"
+      }
+    ],
+    "Weapon": [
+      {
+        "count": 1,
+        "id": "285"
+      }
+    ],
+    "Artefact": [
+      {
+        "count": 1,
+        "id": "267"
+      },
+      {
+        "count": 2,
+        "id": "265"
+      },
+      {
+        "count": 3,
+        "id": "266"
+      },
+      {
+        "count": 3,
+        "id": "263"
+      }
+    ],
+    "Spell": [
+      {
+        "count": 1,
+        "id": "104"
+      },
+      {
+        "count": 2,
+        "id": "103"
+      },
+      {
+        "count": 2,
+        "id": "101"
+      },
+      {
+        "count": 3,
+        "id": "102"
+      }
+    ],
+    "Ally": [
+      {
+        "count": 2,
+        "id": "220"
+      },
+      {
+        "count": 3,
+        "id": "123"
+      },
+      {
+        "count": 3,
+        "id": "198"
+      },
+      {
+        "count": 3,
+        "id": "167"
+      },
+      {
+        "count": 3,
+        "id": "144"
+      },
+      {
+        "count": 3,
+        "id": "189"
+      },
+      {
+        "count": 3,
+        "id": "197"
+      },
+      {
+        "count": 3,
+        "id": "188"
+      }
+    ],
+    "Resource": [
+      {
+        "count": 10,
+        "id": "resource"
+      }
+    ]
+  }
+},
+{
+  "title": "Hallbjorn Starter",
+  "id": "a902e9e2-77db-4896-94d9-742e629765b2",
+  "game": "Nedeth_TCG",
+  "format": [
+    "The Only One"
+  ],
+  "cardCount": 52,
+  "createdAt": "2026-04-03T03:48:42.428Z",
+  "lastModifiedAt": "2026-04-03T03:48:42.428Z",
+  "deckList": {
+    "categoriesOrder": [
+      "Hero",
+      "Weapon",
+      "Ally",
+      "Artefact",
+      "Spell",
+      "Resource"
+    ],
+    "Sideboard": [],
+    "Hero": [
+      {
+        "count": 1,
+        "id": "268"
+      }
+    ],
+    "Weapon": [
+      {
+        "count": 1,
+        "id": "282"
+      }
+    ],
+    "Ally": [
+      {
+        "count": 3,
+        "id": "122"
+      },
+      {
+        "count": 3,
+        "id": "140"
+      },
+      {
+        "count": 3,
+        "id": "138"
+      },
+      {
+        "count": 3,
+        "id": "141"
+      },
+      {
+        "count": 3,
+        "id": "139"
+      },
+      {
+        "count": 3,
+        "id": "163"
+      },
+      {
+        "count": 3,
+        "id": "162"
+      },
+      {
+        "count": 2,
+        "id": "184"
+      },
+      {
+        "count": 2,
+        "id": "196"
+      },
+      {
+        "count": 3,
+        "id": "218"
+      }
+    ],
+    "Artefact": [
+      {
+        "count": 3,
+        "id": "255"
+      }
+    ],
+    "Spell": [
+      {
+        "count": 3,
+        "id": "85"
+      },
+      {
+        "count": 3,
+        "id": "86"
+      },
+      {
+        "count": 3,
+        "id": "88"
+      }
+    ],
+    "Resource": [
+      {
+        "count": 10,
+        "id": "resource"
+      }
+    ]
+  }
+},
+{
+  "title": "Soren 2 Starter",
+  "id": "99defcdd-e5a1-4760-8f65-8cdf6823dcee",
+  "game": "Nedeth_TCG",
+  "format": [
+    "The Only One"
+  ],
+  "cardCount": 52,
+  "createdAt": "2026-04-03T03:52:17.329Z",
+  "lastModifiedAt": "2026-04-03T03:57:01.751Z",
+  "deckList": {
+    "categoriesOrder": [
+      "Hero",
+      "Weapon",
+      "Artefact",
+      "Spell",
+      "Ally",
+      "Resource"
+    ],
+    "Sideboard": [],
+    "Hero": [
+      {
+        "count": 1,
+        "id": "281"
+      }
+    ],
+    "Weapon": [
+      {
+        "count": 1,
+        "id": "290"
+      }
+    ],
+    "Artefact": [
+      {
+        "count": 1,
+        "id": "246"
+      },
+      {
+        "count": 1,
+        "id": "243"
+      },
+      {
+        "count": 1,
+        "id": "242"
+      },
+      {
+        "count": 1,
+        "id": "244"
+      },
+      {
+        "count": 3,
+        "id": "241"
+      },
+      {
+        "count": 3,
+        "id": "226"
+      },
+      {
+        "count": 3,
+        "id": "225"
+      }
+    ],
+    "Spell": [
+      {
+        "count": 3,
+        "id": "14"
+      },
+      {
+        "count": 3,
+        "id": "17"
+      },
+      {
+        "count": 3,
+        "id": "15"
+      }
+    ],
+    "Ally": [
+      {
+        "count": 3,
+        "id": "107"
+      },
+      {
+        "count": 3,
+        "id": "148"
+      },
+      {
+        "count": 3,
+        "id": "190"
+      },
+      {
+        "count": 3,
+        "id": "127"
+      },
+      {
+        "count": 3,
+        "id": "208"
+      },
+      {
+        "count": 3,
+        "id": "128"
+      }
+    ],
+    "Resource": [
+      {
+        "count": 10,
+        "id": "resource"
+      }
+    ]
+  }
+},
+{
+  "title": "Bear Starter",
+  "id": "4c026836-126d-4147-b3cd-7801be72c75f",
+  "game": "Nedeth_TCG",
+  "format": [
+    "The Only One"
+  ],
+  "cardCount": 52,
+  "createdAt": "2026-04-05T00:07:52.622Z",
+  "lastModifiedAt": "2026-04-05T00:11:10.851Z",
+  "deckList": {
+    "categoriesOrder": [
+      "Hero",
+      "Weapon",
+      "Artefact",
+      "Spell",
+      "Ally",
+      "Resource"
+    ],
+    "Sideboard": [],
+    "Hero": [
+      {
+        "count": 1,
+        "id": "269"
+      }
+    ],
+    "Weapon": [
+      {
+        "count": 1,
+        "id": "283"
+      }
+    ],
+    "Artefact": [
+      {
+        "count": 3,
+        "id": "234"
+      },
+      {
+        "count": 3,
+        "id": "245"
+      },
+      {
+        "count": 3,
+        "id": "248"
+      },
+      {
+        "count": 3,
+        "id": "249"
+      },
+      {
+        "count": 2,
+        "id": "250"
+      }
+    ],
+    "Spell": [
+      {
+        "count": 3,
+        "id": "33"
+      },
+      {
+        "count": 3,
+        "id": "29"
+      },
+      {
+        "count": 3,
+        "id": "31"
+      }
+    ],
+    "Ally": [
+      {
+        "count": 3,
+        "id": "109"
+      },
+      {
+        "count": 3,
+        "id": "132"
+      },
+      {
+        "count": 3,
+        "id": "151"
+      },
+      {
+        "count": 3,
+        "id": "175"
+      },
+      {
+        "count": 3,
+        "id": "179"
+      },
+      {
+        "count": 2,
+        "id": "214"
+      }
+    ],
+    "Resource": [
+      {
+        "count": 10,
+        "id": "resource"
+      }
+    ]
+  }
+},
+{
+  "title": "Aunn Starter",
+  "id": "b706f72f-93cb-4103-b9e3-4e8a2539158b",
+  "game": "Nedeth_TCG",
+  "format": [
+    "The Only One"
+  ],
+  "cardCount": 52,
+  "createdAt": "2026-04-05T00:12:03.204Z",
+  "lastModifiedAt": "2026-04-05T00:17:39.603Z",
+  "deckList": {
+    "categoriesOrder": [
+      "Hero",
+      "Weapon",
+      "Artefact",
+      "Ally",
+      "Spell",
+      "Resource"
+    ],
+    "Sideboard": [],
+    "Hero": [
+      {
+        "count": 1,
+        "id": "272"
+      }
+    ],
+    "Weapon": [
+      {
+        "count": 1,
+        "id": "286"
+      }
+    ],
+    "Artefact": [
+      {
+        "count": 3,
+        "id": "238"
+      },
+      {
+        "count": 2,
+        "id": "247"
+      },
+      {
+        "count": 3,
+        "id": "262"
+      },
+      {
+        "count": 1,
+        "id": "250"
+      }
+    ],
+    "Ally": [
+      {
+        "count": 3,
+        "id": "113"
+      },
+      {
+        "count": 3,
+        "id": "143"
+      },
+      {
+        "count": 3,
+        "id": "166"
+      },
+      {
+        "count": 3,
+        "id": "187"
+      },
+      {
+        "count": 3,
+        "id": "212"
+      },
+      {
+        "count": 3,
+        "id": "203"
+      },
+      {
+        "count": 1,
+        "id": "205"
+      }
+    ],
+    "Spell": [
+      {
+        "count": 3,
+        "id": "93"
+      },
+      {
+        "count": 3,
+        "id": "94"
+      },
+      {
+        "count": 3,
+        "id": "55"
+      },
+      {
+        "count": 3,
+        "id": "95"
+      }
+    ],
+    "Resource": [
+      {
+        "count": 10,
+        "id": "resource"
+      }
+    ]
+  }
+},
+{
+  "title": "Hallbjorn 2 Starter",
+  "id": "0c6af0b0-2d2c-40ac-8bb4-4c47c104dd7e",
+  "game": "Nedeth_TCG",
+  "format": [
+    "The Only One"
+  ],
+  "cardCount": 52,
+  "createdAt": "2026-04-05T00:18:38.725Z",
+  "lastModifiedAt": "2026-04-05T00:30:43.866Z",
+  "deckList": {
+    "categoriesOrder": [
+      "Hero",
+      "Weapon",
+      "Ally",
+      "Spell",
+      "Artefact",
+      "Resource"
+    ],
+    "Sideboard": [],
+    "Hero": [
+      {
+        "count": 1,
+        "id": "276"
+      }
+    ],
+    "Weapon": [
+      {
+        "count": 1,
+        "id": "291"
+      }
+    ],
+    "Ally": [
+      {
+        "count": 3,
+        "id": "119"
+      },
+      {
+        "count": 3,
+        "id": "118"
+      },
+      {
+        "count": 3,
+        "id": "164"
+      },
+      {
+        "count": 2,
+        "id": "185"
+      },
+      {
+        "count": 2,
+        "id": "211"
+      }
+    ],
+    "Spell": [
+      {
+        "count": 3,
+        "id": "78"
+      },
+      {
+        "count": 3,
+        "id": "79"
+      },
+      {
+        "count": 3,
+        "id": "49"
+      },
+      {
+        "count": 3,
+        "id": "80"
+      },
+      {
+        "count": 3,
+        "id": "83"
+      },
+      {
+        "count": 3,
+        "id": "84"
+      },
+      {
+        "count": 3,
+        "id": "87"
+      }
+    ],
+    "Artefact": [
+      {
+        "count": 3,
+        "id": "258"
+      },
+      {
+        "count": 3,
+        "id": "259"
+      }
+    ],
+    "Resource": [
+      {
+        "count": 10,
+        "id": "resource"
+      }
+    ]
+  }
+},
+{
+  "title": "Adam Starter",
+  "id": "d5025ea0-56c6-4074-a679-f55ad6aa91e2",
+  "game": "Nedeth_TCG",
+  "format": [
+    "The Only One"
+  ],
+  "cardCount": 52,
+  "createdAt": "2026-04-05T00:35:13.782Z",
+  "lastModifiedAt": "2026-04-05T00:42:42.471Z",
+  "deckList": {
+    "categoriesOrder": [
+      "Hero",
+      "Weapon",
+      "Spell",
+      "Ally",
+      "Artefact",
+      "Resource"
+    ],
+    "Sideboard": [],
+    "Hero": [
+      {
+        "count": 1,
+        "id": "280"
+      }
+    ],
+    "Weapon": [
+      {
+        "count": 1,
+        "id": "295"
+      }
+    ],
+    "Spell": [
+      {
+        "count": 3,
+        "id": "32"
+      },
+      {
+        "count": 3,
+        "id": "20"
+      },
+      {
+        "count": 3,
+        "id": "19"
+      },
+      {
+        "count": 3,
+        "id": "21"
+      },
+      {
+        "count": 3,
+        "id": "59"
+      }
+    ],
+    "Ally": [
+      {
+        "count": 3,
+        "id": "111"
+      },
+      {
+        "count": 3,
+        "id": "131"
+      },
+      {
+        "count": 3,
+        "id": "149"
+      },
+      {
+        "count": 3,
+        "id": "180"
+      },
+      {
+        "count": 3,
+        "id": "195"
+      },
+      {
+        "count": 1,
+        "id": "204"
+      },
+      {
+        "count": 3,
+        "id": "210"
+      }
+    ],
+    "Artefact": [
+      {
+        "count": 3,
+        "id": "229"
+      },
+      {
+        "count": 3,
+        "id": "230"
+      }
+    ],
+    "Resource": [
+      {
+        "count": 10,
+        "id": "resource"
+      }
+    ]
+  }
+},
+{
+  "title": "Soren 3 Starter",
+  "id": "f77f4a49-c588-4e51-8546-cfdbf2331ba6",
+  "game": "Nedeth_TCG",
+  "format": [
+    "The Only One"
+  ],
+  "cardCount": 52,
+  "createdAt": "2026-04-05T00:48:01.366Z",
+  "lastModifiedAt": "2026-04-05T00:53:38.964Z",
+  "deckList": {
+    "categoriesOrder": [
+      "Hero",
+      "Weapon",
+      "Spell",
+      "Ally",
+      "Artefact",
+      "Resource"
+    ],
+    "Sideboard": [],
+    "Hero": [
+      {
+        "count": 1,
+        "id": "273"
+      }
+    ],
+    "Weapon": [
+      {
+        "count": 1,
+        "id": "287"
+      }
+    ],
+    "Spell": [
+      {
+        "count": 3,
+        "id": "96"
+      },
+      {
+        "count": 3,
+        "id": "8"
+      },
+      {
+        "count": 3,
+        "id": "12"
+      },
+      {
+        "count": 3,
+        "id": "10"
+      },
+      {
+        "count": 3,
+        "id": "16"
+      }
+    ],
+    "Ally": [
+      {
+        "count": 3,
+        "id": "106"
+      },
+      {
+        "count": 3,
+        "id": "136"
+      },
+      {
+        "count": 3,
+        "id": "147"
+      },
+      {
+        "count": 3,
+        "id": "169"
+      },
+      {
+        "count": 3,
+        "id": "170"
+      },
+      {
+        "count": 3,
+        "id": "207"
+      }
+    ],
+    "Artefact": [
+      {
+        "count": 3,
+        "id": "223"
+      },
+      {
+        "count": 3,
+        "id": "227"
+      },
+      {
+        "count": 1,
+        "id": "247"
+      }
+    ],
+    "Resource": [
+      {
+        "count": 10,
+        "id": "resource"
+      }
+    ]
+  }
+},
+{
+  "title": "Elianora Starter",
+  "id": "089bec89-0a4e-4bf1-983a-7f071af8a7bd",
+  "game": "Nedeth_TCG",
+  "format": [
+    "The Only One"
+  ],
+  "cardCount": 52,
+  "createdAt": "2026-04-05T00:54:08.021Z",
+  "lastModifiedAt": "2026-04-05T01:05:59.681Z",
+  "deckList": {
+    "categoriesOrder": [
+      "Hero",
+      "Weapon",
+      "Artefact",
+      "Spell",
+      "Ally",
+      "Resource"
+    ],
+    "Sideboard": [],
+    "Hero": [
+      {
+        "count": 1,
+        "id": "279"
+      }
+    ],
+    "Weapon": [
+      {
+        "count": 1,
+        "id": "294"
+      }
+    ],
+    "Artefact": [
+      {
+        "count": 3,
+        "id": "260"
+      },
+      {
+        "count": 3,
+        "id": "261"
+      }
+    ],
+    "Spell": [
+      {
+        "count": 3,
+        "id": "89"
+      },
+      {
+        "count": 2,
+        "id": "36"
+      },
+      {
+        "count": 3,
+        "id": "90"
+      },
+      {
+        "count": 3,
+        "id": "91"
+      },
+      {
+        "count": 3,
+        "id": "92"
+      }
+    ],
+    "Ally": [
+      {
+        "count": 3,
+        "id": "116"
+      },
+      {
+        "count": 3,
+        "id": "142"
+      },
+      {
+        "count": 3,
+        "id": "165"
+      },
+      {
+        "count": 3,
+        "id": "154"
+      },
+      {
+        "count": 3,
+        "id": "186"
+      },
+      {
+        "count": 3,
+        "id": "219"
+      },
+      {
+        "count": 2,
+        "id": "202"
+      }
+    ],
+    "Resource": [
+      {
+        "count": 10,
+        "id": "resource"
+      }
+    ]
+  }
+},
+{
+  "title": "Soren Starter",
+  "id": "96815c32-10bb-4172-bc7c-7b98273d8bc8",
+  "game": "Nedeth_TCG",
+  "format": [
+    "The Only One"
+  ],
+  "cardCount": 52,
+  "createdAt": "2026-04-05T01:08:30.533Z",
+  "lastModifiedAt": "2026-04-05T01:23:00.645Z",
+  "deckList": {
+    "categoriesOrder": [
+      "Hero",
+      "Weapon",
+      "Spell",
+      "Artefact",
+      "Ally",
+      "Resource"
+    ],
+    "Sideboard": [],
+    "Hero": [
+      {
+        "count": 1,
+        "id": "270"
+      }
+    ],
+    "Weapon": [
+      {
+        "count": 1,
+        "id": "284"
+      }
+    ],
+    "Spell": [
+      {
+        "count": 3,
+        "id": "3"
+      },
+      {
+        "count": 3,
+        "id": "9"
+      },
+      {
+        "count": 3,
+        "id": "13"
+      }
+    ],
+    "Artefact": [
+      {
+        "count": 3,
+        "id": "222"
+      },
+      {
+        "count": 3,
+        "id": "221"
+      },
+      {
+        "count": 3,
+        "id": "224"
+      }
+    ],
+    "Ally": [
+      {
+        "count": 3,
+        "id": "105"
+      },
+      {
+        "count": 2,
+        "id": "124"
+      },
+      {
+        "count": 3,
+        "id": "126"
+      },
+      {
+        "count": 2,
+        "id": "125"
+      },
+      {
+        "count": 3,
+        "id": "146"
+      },
+      {
+        "count": 3,
+        "id": "145"
+      },
+      {
+        "count": 3,
+        "id": "168"
+      },
+      {
+        "count": 3,
+        "id": "213"
+      }
+    ],
+    "Resource": [
+      {
+        "count": 10,
+        "id": "resource"
+      }
+    ]
+  }
+},
+{
+  "title": "Keith Starter",
+  "id": "0ad06f81-308a-4aca-9c80-ca8a19c1fd95",
+  "game": "Nedeth_TCG",
+  "format": [
+    "The Only One"
+  ],
+  "cardCount": 52,
+  "createdAt": "2026-04-05T01:32:52.768Z",
+  "lastModifiedAt": "2026-04-05T02:04:20.779Z",
+  "deckList": {
+    "categoriesOrder": [
+      "Hero",
+      "Weapon",
+      "Ally",
+      "Spell",
+      "Resource"
+    ],
+    "Sideboard": [],
+    "Hero": [
+      {
+        "count": 1,
+        "id": "277"
+      }
+    ],
+    "Weapon": [
+      {
+        "count": 1,
+        "id": "292"
+      }
+    ],
+    "Ally": [
+      {
+        "count": 3,
+        "id": "112"
+      },
+      {
+        "count": 3,
+        "id": "115"
+      },
+      {
+        "count": 3,
+        "id": "135"
+      },
+      {
+        "count": 3,
+        "id": "152"
+      },
+      {
+        "count": 3,
+        "id": "153"
+      },
+      {
+        "count": 3,
+        "id": "176"
+      },
+      {
+        "count": 3,
+        "id": "177"
+      },
+      {
+        "count": 3,
+        "id": "201"
+      },
+      {
+        "count": 2,
+        "id": "216"
+      }
+    ],
+    "Spell": [
+      {
+        "count": 3,
+        "id": "34"
+      },
+      {
+        "count": 3,
+        "id": "40"
+      },
+      {
+        "count": 3,
+        "id": "57"
+      },
+      {
+        "count": 3,
+        "id": "60"
+      },
+      {
+        "count": 2,
+        "id": "62"
+      }
+    ],
+    "Resource": [
+      {
+        "count": 10,
+        "id": "resource"
+      }
+    ]
+  }
+},
+{
+  "title": "Francis Starter",
+  "id": "e47b2fa5-d3e2-4d68-abc8-3e0fb84f8d5d",
+  "game": "Nedeth_TCG",
+  "format": [
+    "The Only One"
+  ],
+  "cardCount": 52,
+  "createdAt": "2026-04-05T02:08:59.410Z",
+  "lastModifiedAt": "2026-04-05T02:11:52.180Z",
+  "deckList": {
+    "categoriesOrder": [
+      "Hero",
+      "Weapon",
+      "Ally",
+      "Spell",
+      "Artefact",
+      "Resource"
+    ],
+    "Sideboard": [],
+    "Hero": [
+      {
+        "count": 1,
+        "id": "274"
+      }
+    ],
+    "Weapon": [
+      {
+        "count": 1,
+        "id": "288"
+      }
+    ],
+    "Ally": [
+      {
+        "count": 3,
+        "id": "117"
+      },
+      {
+        "count": 3,
+        "id": "120"
+      },
+      {
+        "count": 3,
+        "id": "182"
+      },
+      {
+        "count": 3,
+        "id": "181"
+      },
+      {
+        "count": 3,
+        "id": "194"
+      },
+      {
+        "count": 3,
+        "id": "206"
+      }
+    ],
+    "Spell": [
+      {
+        "count": 3,
+        "id": "66"
+      },
+      {
+        "count": 3,
+        "id": "65"
+      },
+      {
+        "count": 3,
+        "id": "67"
+      },
+      {
+        "count": 3,
+        "id": "47"
+      },
+      {
+        "count": 3,
+        "id": "68"
+      },
+      {
+        "count": 1,
+        "id": "58"
+      }
+    ],
+    "Artefact": [
+      {
+        "count": 3,
+        "id": "251"
+      },
+      {
+        "count": 3,
+        "id": "252"
+      }
+    ],
+    "Resource": [
+      {
+        "count": 10,
+        "id": "resource"
+      }
+    ]
+  }
+},
+{
+  "title": "Moria Starter",
+  "id": "8c22599d-20ba-4655-9b9f-cdaac0876679",
+  "game": "Nedeth_TCG",
+  "format": [
+    "The Only One"
+  ],
+  "cardCount": 52,
+  "createdAt": "2026-04-05T02:15:19.553Z",
+  "lastModifiedAt": "2026-04-05T02:23:49.154Z",
+  "deckList": {
+    "categoriesOrder": [
+      "Hero",
+      "Weapon",
+      "Ally",
+      "Spell",
+      "Artefact",
+      "Resource"
+    ],
+    "Sideboard": [],
+    "Hero": [
+      {
+        "count": 1,
+        "id": "278"
+      }
+    ],
+    "Weapon": [
+      {
+        "count": 1,
+        "id": "293"
+      }
+    ],
+    "Ally": [
+      {
+        "count": 3,
+        "id": "114"
+      },
+      {
+        "count": 3,
+        "id": "121"
+      },
+      {
+        "count": 3,
+        "id": "137"
+      },
+      {
+        "count": 3,
+        "id": "161"
+      },
+      {
+        "count": 3,
+        "id": "156"
+      },
+      {
+        "count": 2,
+        "id": "215"
+      }
+    ],
+    "Spell": [
+      {
+        "count": 2,
+        "id": "38"
+      },
+      {
+        "count": 3,
+        "id": "69"
+      },
+      {
+        "count": 3,
+        "id": "71"
+      },
+      {
+        "count": 3,
+        "id": "73"
+      },
+      {
+        "count": 3,
+        "id": "74"
+      }
+    ],
+    "Artefact": [
+      {
+        "count": 6,
+        "id": "253"
+      },
+      {
+        "count": 3,
+        "id": "254"
+      }
+    ],
+    "Resource": [
+      {
+        "count": 10,
+        "id": "resource"
+      }
+    ]
+  }
+}
+]
